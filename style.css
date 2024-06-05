@@ -1,0 +1,38 @@
+.box{
+    height:100px;
+    width:100px;
+    border:1px solid black;
+    border-radius: 1rem;
+    margin:2px;
+    background-color: grey;
+    color:aliceblue
+    
+}
+body{
+    background-color:rgb(127, 127, 197) ;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+}
+
+.container{
+    height:70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.outerbox{
+   display: flex;
+   height:320px;
+   width: 320px;
+   flex-wrap: wrap;
+
+}
+button{
+    font-size: 2rem;
+}
+.box{
+    font-size: 80px;
+}
